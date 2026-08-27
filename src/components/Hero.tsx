@@ -90,7 +90,7 @@ function TrailMap() {
 
 export function Hero() {
   return (
-    <section id="top" className="relative overflow-hidden pt-32 pb-14 sm:pt-40">
+    <section id="top" className="relative scroll-mt-20 overflow-hidden pt-10 pb-14 sm:pt-14">
       <Contours className="pointer-events-none absolute -left-40 top-10 h-[420px] w-[640px] text-pine-700" />
       <Contours className="pointer-events-none absolute -right-32 bottom-0 h-[360px] w-[560px] rotate-180 text-pine-800" />
 
