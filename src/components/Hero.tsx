@@ -142,7 +142,16 @@ export function Hero() {
             </a>
           </div>
 
-          <p className="font-mono mt-8 flex flex-wrap items-center gap-x-3 gap-y-1 text-[10px] tracking-[0.22em] text-moss-400">
+          <div className="mt-6 flex items-center gap-3">
+            <svg viewBox="0 0 20 20" className="bob h-4 w-4 text-trail-400" fill="none" aria-hidden="true">
+              <path d="M10 2v14M4.5 10.5 10 16l5.5-5.5" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+            <a href="#trailhead" className="font-mono text-[11px] tracking-[0.18em] text-bone-300 transition-colors hover:text-trail-400">
+              DON'T KNOW HOW TO USE THIS? THE SIGNS BELOW POINT THE WAY
+            </a>
+          </div>
+
+          <p className="font-mono mt-6 flex flex-wrap items-center gap-x-3 gap-y-1 text-[10px] tracking-[0.22em] text-moss-400">
             <span className="text-trail-500">▲</span> 0 ACCOUNTS
             <span className="text-pine-600">/</span> 0 JUDGMENT
             <span className="text-pine-600">/</span> 47-STEP SYSTEMS NOWHERE IN SIGHT

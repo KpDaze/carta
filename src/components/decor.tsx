@@ -1,13 +1,21 @@
 /** Small decorative SVG pieces: compass, pin, contours, diamond. */
 
-export function Compass({ size = 44, rotation = 0 }: { size?: number; rotation?: number }) {
+export function Compass({
+  size = 44,
+  rotation = 0,
+  className = "",
+}: {
+  size?: number;
+  rotation?: number;
+  className?: string;
+}) {
   const ticks = Array.from({ length: 12 }, (_, i) => i * 30);
   return (
     <svg
       width={size}
       height={size}
       viewBox="0 0 100 100"
-      className="shrink-0"
+      className={`shrink-0 ${className}`}
       aria-hidden="true"
     >
       <circle cx="50" cy="50" r="46" fill="none" stroke="currentColor" strokeOpacity="0.35" strokeWidth="3" />

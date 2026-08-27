@@ -1,6 +1,7 @@
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { Ticker } from "./components/Ticker";
+import { Trailhead } from "./components/Trailhead";
 import { Triage } from "./components/Triage";
 import { FieldNotes } from "./components/FieldNotes";
 import { Breathe } from "./components/Breathe";
@@ -14,6 +15,7 @@ export default function App() {
       <main>
         <Hero />
         <Ticker />
+        <Trailhead />
         <Triage />
         <FieldNotes />
         <Breathe />

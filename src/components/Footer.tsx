@@ -19,6 +19,7 @@ export function Footer() {
           <div className="lg:col-span-4">
             <nav className="grid grid-cols-2 gap-x-6 gap-y-3 lg:justify-items-end">
               {[
+                ["TRAILHEAD", "#trailhead"],
                 ["TRIAGE", "#triage"],
                 ["FIELD NOTES", "#notes"],
                 ["BREATHE", "#breathe"],

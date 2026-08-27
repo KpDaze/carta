@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Compass } from "./decor";
 
 const LINKS = [
+  { n: "00", label: "TRAILHEAD", href: "#trailhead" },
   { n: "01", label: "TRIAGE", href: "#triage" },
   { n: "02", label: "FIELD NOTES", href: "#notes" },
   { n: "03", label: "BREATHE", href: "#breathe" },
