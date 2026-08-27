@@ -56,14 +56,15 @@ export function Trailhead() {
         <Reveal>
           <SectionHead
             kicker="TRAILHEAD — HOW TO USE THIS PAGE"
-            title="It's a map, not a manual."
+            title="In plain English."
           />
           <p className="-mt-6 max-w-md text-lg leading-relaxed text-bone-300">
-            There is no wrong way in. The signs are the whole system:{" "}
+            This is just a webpage. No coding, no account, no skills needed — you{" "}
             <strong className="font-semibold text-bone-100">
-              pick one, follow it, check things off.
+              scroll, click, and check things off.
             </strong>{" "}
-            If you truly don't know where to start, start at{" "}
+            Whenever it says “map,” that's only the costume: feeling lost is the theme, so the
+            page dresses up like a trail map. Don't know where to start? Start at{" "}
             <span className="font-mono font-bold text-trail-400">A</span> — that's exactly what
             it's for.
           </p>
